@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Live\Buffer.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Live\InetAddress.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Live\TcpConnection.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Live\TrConnection.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Live\TrDatabase.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Live\TrServer.cpp">
+      <Filter>Live</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\EPollPoller.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\Event.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\EventScheduler.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\Poller.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\SelectPoller.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\SocketsOps.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\Thread.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\ThreadPool.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler\UsageEnvironment.cpp">
+      <Filter>Scheduler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{8c989b64-5603-4306-9525-8847cb46f831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Live">
+      <UniqueIdentifier>{4a563ac7-5c38-47fe-9961-d89e09247f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scheduler">
+      <UniqueIdentifier>{097d339d-a1d9-45b0-adc0-234e08c27fa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\Log.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\Buffer.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\InetAddress.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\MegParse.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\TcpConnection.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\TrConnection.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\TrDatabase.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Live\TrServer.h">
+      <Filter>Live</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\EPollPoller.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\Event.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\EventScheduler.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\Poller.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\SelectPoller.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\SocketsOps.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\Thread.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\ThreadPool.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler\UsageEnvironment.h">
+      <Filter>Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\json.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
